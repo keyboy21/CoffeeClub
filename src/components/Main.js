@@ -23,11 +23,7 @@ export default function Main() {
         </div>
       </div>
       <div className="main-photo">
-        <div className="container container-fluid">
-          <div className="row">
-            <img src={Coffee} alt="" />
-          </div>
-        </div>
+        <img src={Coffee} alt="" />
       </div>
       <div className="main-word">
         <div className="container">

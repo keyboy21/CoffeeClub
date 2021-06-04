@@ -47,6 +47,11 @@
   margin: 5px;
   font-size: 15px;
 }
+
+.footer .form {
+  display: flex;
+  flex-wrap: wrap;
+}
 .footer h5 {
   line-height: 1.4em;
   font-size: 24px;
