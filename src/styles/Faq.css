@@ -1,0 +1,82 @@
+:root {
+  --color1: 51, 71, 72;
+}
+.faq_head {
+  margin-top: 150px;
+  margin-bottom: 75px;
+  padding: 0 67px;
+}
+.faq_head h4 {
+  line-height: 1.2em;
+  font-size: 64px;
+  letter-spacing: normal;
+  font-weight: normal;
+  color: rgba(var(--color1));
+  font: poppins-extralight, poppins, sans-serif;
+}
+.faq_head p {
+  margin-top: 0;
+  line-height: 1.4em;
+  font-size: 18px;
+  color: rgba(var(--color1));
+  padding-right: 11px;
+}
+.faq_bottom {
+  margin-bottom: 100px;
+}
+.faq_bottom .container {
+  background-color: rgba(var(--color1));
+  color: white;
+}
+.faq_bottom .faq_top {
+  padding: 60px 73px;
+}
+.faq_bottom .faq_top h6 {
+  padding-left: 6px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 1.2em;
+  letter-spacing: normal;
+  font-weight: normal;
+  font: poppins-extralight, poppins, sans-serif;
+}
+.faq_bottom .faq_top h4 {
+  margin-bottom: 20px;
+  padding-left: 6px;
+  font-size: 24px;
+  line-height: 1.2em;
+  letter-spacing: normal;
+  font-weight: normal;
+  font: poppins-extralight, poppins, sans-serif;
+}
+
+.faq_bottom .faq_top p {
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: normal;
+  font-weight: normal;
+  font: proxima-n-w01-reg, sans-serif;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+.faq_bottom .faq_top span {
+  letter-spacing: normal;
+  font-weight: normal;
+  font: proxima-n-w01-reg, sans-serif;
+  font-size: 18px;
+  line-height: 1.2em;
+}
+.faq_bottom .faq_top ol li {
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: normal;
+  font-weight: normal;
+  font: proxima-n-w01-reg, sans-serif;
+}
+.faq_bottom .faq_top h2 {
+  font-size: 18px;
+  line-height: 1.5em;
+  letter-spacing: normal;
+  font-weight: normal;
+  font: proxima-n-w01-reg, sans-serif;
+}

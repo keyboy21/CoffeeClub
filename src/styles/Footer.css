@@ -1,0 +1,115 @@
+:root {
+  --color1: 51, 71, 72;
+}
+.footer {
+  padding: 0 80px;
+}
+.footer .container {
+  border-top: 1px solid #000;
+  margin-top: 70px;
+  padding: 70px 0;
+}
+.footer .container .form input {
+  border: 2px solid black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 7px 33px;
+  margin-right: 10px;
+}
+.footer .container .form button {
+  font-size: 17px;
+  font-weight: 700px;
+  border: solid 0px;
+  color: white;
+  background-color: rgba(var(--color1));
+  padding: 10px 30px;
+  border-radius: 30px;
+  box-sizing: border;
+  transition: 0.5s;
+}
+.footer .container .form button:hover {
+  background-color: rgba(99, 75, 32);
+  transition: 0.5s;
+}
+.footer .container .col-lg-3 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.footer .container .col-lg-3 ul li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer .container .footer_end i {
+  color: black;
+  margin: 5px;
+  font-size: 15px;
+}
+.footer h5 {
+  line-height: 1.4em;
+  font-size: 24px;
+  letter-spacing: normal;
+  font-weight: normal;
+  color: rgba(var(--color1));
+  font: poppins-extralight, poppins, sans-serif;
+}
+.footer p {
+  line-height: 1.4em;
+  font-size: 16px;
+  color: rgba(76, 65, 60);
+  --column-flex: 324;
+}
+.footer form label {
+  line-height: 1.4em;
+  font-size: 16px;
+  color: rgba(76, 65, 60);
+  --column-flex: 324;
+  margin-bottom: 20px;
+}
+.footer .footer_end span {
+  line-height: 1.4em;
+  font-size: 16px;
+  color: rgba(76, 65, 60);
+  --column-flex: 324;
+}
+.footer .col-lg-3 h6 {
+  font-size: 24px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(76, 65, 60);
+  font: 24px/1.4em poppins-extralight, poppins, sans-serif;
+}
+.footer .col-lg-3 ul li a {
+  line-height: 2em;
+  font-size: 15px;
+  letter-spacing: normal;
+  font-weight: normal;
+  color: rgba(var(--color1));
+  font: 16px/1.4em proxima-n-w01-reg, sans-serif;
+}
+.footer_end {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .footer .col-lg-3 {
+    margin-top: 15px;
+  }
+  .footer .col-md-4 {
+    text-align: center;
+  }
+  .footer .container .form input {
+    padding: 7px 0px;
+  }
+}
+@media (max-width: 575px) {
+  .footer {
+    padding: 0 15px;
+  }
+  .footer .container .form input {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
