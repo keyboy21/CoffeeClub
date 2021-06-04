@@ -16,6 +16,9 @@ export default function Header() {
             className="shopcart d-md-none d-lg-none"
             onClick={() => setCart(true)}
           >
+            <span>
+              <i className="fas fa-user-circle" style={ {fontSize:20}} ></i>Log In
+            </span>
             <i className="fas fa-shopping-cart"></i>
             <span>Cart</span> <span>0</span>
           </div>
