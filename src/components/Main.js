@@ -34,7 +34,7 @@ export default function Main() {
       </div>
       <div className="main-video">
         <div className="main-movie">
-          <video src={Movie} alt="" autoPlay={true} replay="true" />
+          <video src={Movie} alt="" autoPlay loop="true" />
           <div className="main-text">
             <div className="main-info flex-wrap">
               <div className="text col-12 col-sm-4 col-md-4 col-lg-4">
