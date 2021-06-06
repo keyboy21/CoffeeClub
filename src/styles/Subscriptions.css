@@ -72,3 +72,17 @@
     margin-bottom: 50px;
   }
 }
+
+@media (max-width: 575px) {
+  .subscriptions_head h4 {
+    font-size: 40px;
+  }
+
+  .subscriptions_head {
+    margin-top: 120px;
+    margin-bottom: 0;
+  }
+  .subscriptions_bottom {
+    margin-top: 50px;
+  }
+}

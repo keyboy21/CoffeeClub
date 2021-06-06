@@ -42,7 +42,7 @@ export default function Header() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Subscriptions">
-                  Subscriptions
+                Subscriptions
                 </NavLink>
               </li>
               <li className="nav-item">
