@@ -473,6 +473,10 @@
     margin: 0;
   }
 
+  .main-title .main-head h2:nth-child(1){
+    margin-bottom: 20px;
+  }
+
   .better-world .world {
     padding: 0;
     display: flex;
